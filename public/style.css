@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: white;
+    background-image: url('/img/bg.png');
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: right top;
+}
+
+.login {
+  background-color: rgb(255, 255, 255);
+  border-radius: 70px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 70px 50px;
+}
+
+.login .login-text {
+  color: #111;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.login .login-email .input-group {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.login .login-email .input-group input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e7e7e7;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: transparent;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login .login-email .input-group input:focus,
+.login .login-email .input-group input:valid {
+  border-color: #80e61b;
+}
+
+.login .login-email .input-group .btn {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  background: #5cac0e;
+  outline: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login .login-email .input-group .btn:hover {
+  transform: translateY(-5px);
+  background: #80e61b;
+}
+
+.login-register-text {
+  color: #111;
+  font-weight: 600;
+}
+
+.login-register-text a {
+  text-decoration: none;
+  color: #5cac0e;
+}
+
+.container .jumbotron {
+    width: 400px;
+  }
+  
+.jumbotron {
+    padding-top: 15rem;
+}
+
+.container .input-group .btn {
+    display: block;
+    width: 200px;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #5cac0e;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    }
+
+a:link {
+text-decoration: none;
+}
+
+.container .input-group .btn:hover {
+transform: translateY(-5px);
+background: #80e61b;
+}
+
+.display-4 {
+color: #5cac0e;
+font-weight: bold;
+}
+
+.display-5 {
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.container .about-text {
+    width: 600px;
+    margin-top: 50px;
+    float: right;
+    text-align: justify;
+  }
+
+.book-example{
+    width: 10vw;
+    height:10vh;
+}
+
+.active{
+    font-weight:bold;
+}
