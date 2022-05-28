@@ -162,6 +162,7 @@
                                     <th class="text-center">No.</th>
                                     <th class="text-center">Title</th>
                                     <th class="text-center">Deskripsi</th>
+                                    <th class="text-center">User</th>
                                     <th class="text-center">Aksi</th>
                                 </tr>
                             </thead>
@@ -171,6 +172,7 @@
                                         <td class="text-center">{{$loop->index + 1}}</td>
                                         <td class="text-center">{{$datum->title}}</td>
                                         <td class="text-center">{{$datum->description}}</td>
+                                        <td class="text-center">{{$datum->user->username}}</td>
                                         <td class="text-center"><a href="{{route('buybook', ['id' => $datum->id])}}">Beli Buku</a></td>
                                     </tr>
                                 @endforeach

@@ -16,4 +16,8 @@ class Document extends Model
         'id' => 'int',
         'uid'=>'int',
     ];
+
+    public function user(){
+        return $this->hasOne('App\Models\User', 'id', 'uid');
+    }
 }
