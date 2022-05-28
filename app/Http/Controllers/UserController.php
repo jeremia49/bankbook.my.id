@@ -50,6 +50,8 @@ class UserController extends Controller
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-        return redirect()->route('index');
+        return redirect()->route('login')->with('success','Anda berhasil keluar !');
     }
+
+
 }
