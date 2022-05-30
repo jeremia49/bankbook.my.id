@@ -45,7 +45,7 @@ class AppController extends Controller
         $check = Document::create($validated);
         
         if($check){
-            $user = User::find(auth()->user()->id)->first();
+            $user = User::where('id',auth()->user()->id)->first();
             $user->points += 5;
             $user->save();
 
